@@ -3,7 +3,7 @@ import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
-import Logo from '../assets/Logo.jpg'
+import Logo_1 from '../assets/Logo_1.png'
 
 type Props = {}
 const Header = (props: Props) => {
@@ -11,11 +11,12 @@ const Header = (props: Props) => {
         <AppBar
             position="static"
             sx={{
-                backgroundColor: 'var(--Level-1, #181823)',
+                background:
+                    'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(24,24,35,1) 35%)',
                 height: '5.5rem',
             }}
         >
-            <Container maxWidth="lg">
+            <Container maxWidth="xl">
                 <Toolbar>
                     <Typography
                         variant="h6"
@@ -26,7 +27,7 @@ const Header = (props: Props) => {
                         }}
                     >
                         <img
-                            src={Logo}
+                            src={Logo_1}
                             alt=""
                             style={{
                                 height: '3.938rem',
