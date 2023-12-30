@@ -1,5 +1,6 @@
 import my_photo from '../assets/my_photo.png'
-
+import 'animate.css'
+import './About.css'
 type Props = {}
 const About = (props: Props) => {
     return (
@@ -15,6 +16,7 @@ const About = (props: Props) => {
             }}
         >
             <img
+                className="My-photo"
                 src={my_photo}
                 alt=""
                 style={{
@@ -23,6 +25,7 @@ const About = (props: Props) => {
                 }}
             />
             <div
+                className="About-me"
                 style={{
                     zIndex: 10,
                     position: 'absolute',
@@ -47,6 +50,7 @@ const About = (props: Props) => {
                         based in Germany.
                     </span>
                 </h1>
+
                 <p
                     style={{
                         color: 'white',

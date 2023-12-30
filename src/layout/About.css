@@ -1,0 +1,8 @@
+.My-photo {
+    animation: rotateInDownRight;
+    animation-duration: 2.5s;
+}
+.About-me {
+    animation: rotateInDownLeft;
+    animation-duration: 2.5s;
+}
